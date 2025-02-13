@@ -20,6 +20,8 @@ export default function LoginForm() {
   );
 
   console.log("isPending", isPending);
+  console.log("errorMessage", errorMessage);
+  
 
   return (
     <form action={formAction} className="space-y-3">
