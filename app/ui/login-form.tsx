@@ -19,10 +19,10 @@ export default function LoginForm() {
     undefined
   );
 
-  console.log("isPending", isPending);
-  console.log("errorMessage", errorMessage);
-  console.log("callbackUrl", callbackUrl);
-  console.log("searchParams", searchParams);
+  // console.log("isPending", isPending);
+  // console.log("errorMessage", errorMessage);
+  // console.log("callbackUrl", callbackUrl);
+  // console.log("searchParams", searchParams);
 
   return (
     <form action={formAction} className="space-y-3">
